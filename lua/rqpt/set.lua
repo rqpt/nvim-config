@@ -26,7 +26,7 @@ vim.opt.isfname:append ("@-@")
 
 vim.opt.updatetime = 50
 
-vim.opt.colorcolumn = "80"
+vim.opt.colorcolumn = "85"
 
 vim.g.mapleader = " "
 vim.opt.clipboard = 'unnamedplus'
@@ -36,5 +36,5 @@ vim.g.netrw_banner = 0
 -- vim.g.netrw_browse_split = 2
 vim.g.netrw_liststyle = 3 
 vim.g.netrw_list_hide = '^\\..*'
-vim.g.netrw_keepdir = 0
+vim.g.netrw_keepdir = 1
 vim.g.netrw_bufsettings = 'noma nomod nu nowrap ro nobl'
